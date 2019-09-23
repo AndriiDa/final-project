@@ -26,6 +26,8 @@ spring:
 spring:
   profiles: dev
   datasource:
-    url:jdbc://mysql:...
+    url: jdbc:postgresql://localhost:5432/finalproject_db?createDatabaseIfNotExist=true
+    username: postgres
+    password: postgres
 
 ---
